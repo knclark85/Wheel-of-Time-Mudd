@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1B575C6D17792B8F00688982 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C6C17792B8F00688982 /* main.cpp */; };
 		1B575C6F17792B8F00688982 /* MUDD.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B575C6E17792B8F00688982 /* MUDD.1 */; };
+		1B575C7717792C0300688982 /* Characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C7517792C0300688982 /* Characters.cpp */; };
+		1B575C7A1779300000688982 /* Inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C781779300000688982 /* Inventory.cpp */; };
+		1B575C7D1779381500688982 /* BorderLander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C7B1779381500688982 /* BorderLander.cpp */; };
+		1B575C8017793A6C00688982 /* WhiteCloak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C7E17793A6C00688982 /* WhiteCloak.cpp */; };
+		1B575C8317793BEA00688982 /* WolfBrother.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B575C8117793BEA00688982 /* WolfBrother.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		1B575C6917792B8F00688982 /* MUDD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MUDD; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B575C6C17792B8F00688982 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1B575C6E17792B8F00688982 /* MUDD.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MUDD.1; sourceTree = "<group>"; };
+		1B575C7517792C0300688982 /* Characters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Characters.cpp; sourceTree = "<group>"; };
+		1B575C7617792C0300688982 /* Characters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Characters.h; sourceTree = "<group>"; };
+		1B575C781779300000688982 /* Inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Inventory.cpp; sourceTree = "<group>"; };
+		1B575C791779300000688982 /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		1B575C7B1779381500688982 /* BorderLander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BorderLander.cpp; sourceTree = "<group>"; };
+		1B575C7C1779381500688982 /* BorderLander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderLander.h; sourceTree = "<group>"; };
+		1B575C7E17793A6C00688982 /* WhiteCloak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WhiteCloak.cpp; sourceTree = "<group>"; };
+		1B575C7F17793A6C00688982 /* WhiteCloak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCloak.h; sourceTree = "<group>"; };
+		1B575C8117793BEA00688982 /* WolfBrother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WolfBrother.cpp; sourceTree = "<group>"; };
+		1B575C8217793BEA00688982 /* WolfBrother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfBrother.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 			children = (
 				1B575C6C17792B8F00688982 /* main.cpp */,
 				1B575C6E17792B8F00688982 /* MUDD.1 */,
+				1B575C7517792C0300688982 /* Characters.cpp */,
+				1B575C7617792C0300688982 /* Characters.h */,
+				1B575C781779300000688982 /* Inventory.cpp */,
+				1B575C791779300000688982 /* Inventory.h */,
+				1B575C7B1779381500688982 /* BorderLander.cpp */,
+				1B575C7C1779381500688982 /* BorderLander.h */,
+				1B575C7E17793A6C00688982 /* WhiteCloak.cpp */,
+				1B575C7F17793A6C00688982 /* WhiteCloak.h */,
+				1B575C8117793BEA00688982 /* WolfBrother.cpp */,
+				1B575C8217793BEA00688982 /* WolfBrother.h */,
 			);
 			path = MUDD;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B575C6D17792B8F00688982 /* main.cpp in Sources */,
+				1B575C7717792C0300688982 /* Characters.cpp in Sources */,
+				1B575C7A1779300000688982 /* Inventory.cpp in Sources */,
+				1B575C7D1779381500688982 /* BorderLander.cpp in Sources */,
+				1B575C8017793A6C00688982 /* WhiteCloak.cpp in Sources */,
+				1B575C8317793BEA00688982 /* WolfBrother.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +223,7 @@
 		1B575C7417792B8F00688982 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
